@@ -1,6 +1,5 @@
-# 第三步
+# 安装和测试
 
-##安装和测试
 下一步我们将为我们的项目增加安装规则和测试支持，安装规则相当简单，针对MathFunctions库，我们通过在MathFunctions的CMakeLists文件中增加下面两行来安装这个库和头文件：
 ```
 install (TARGETS MathFunctions DESTINATION bin)
