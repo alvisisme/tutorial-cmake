@@ -7,3 +7,4 @@
 * [第四步](chapter4.md)
 * [第五步](chapter5.md)
 * [第六步](chapter6.md)
+* [第七步](chapter7.md)
