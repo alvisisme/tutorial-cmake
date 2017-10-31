@@ -8,3 +8,4 @@
 * [第五步](step5.md)
 * [第六步](step6.md)
 * [第七步](step7.md)
+* [参考资料](reference.md)
