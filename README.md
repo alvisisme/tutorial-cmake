@@ -1,4 +1,3 @@
-CMake教程
-=======
+CMake 简单教程
 
-下面是一个循序渐进的，涵盖常见的有助于CMake定位构建系统问题的教程。已经有许多这样的主题作为单独的问题介绍如何掌握CMake，但是看到他们如何在一个样例工程中一起工作会非常有帮助。这个教程可以在CMake源码树中的Tests/Tutorial目录下找到，每一步都有对应的包含那一步教程完整拷贝的子目录。
+[![Build Status](https://img.shields.io/travis/com/alvisisme/tutorial-cmake?style=flat-square)](https://travis-ci.com/alvisisme/tutorial-cmake)

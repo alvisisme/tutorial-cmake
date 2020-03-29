@@ -1,0 +1,30 @@
+language: node_js
+os: linux
+arch: amd64
+dist: bionic
+node_js:
+  - 12.16.1
+
+services: docker
+
+branches:
+  only:
+    - master
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install curl calibre
+  - npm install -g gitbook-cli
+  - gitbook fetch 3.2.3
+
+script:
+  - gitbook build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  local_dir: ./_book/
+  on:
+    branch: master
